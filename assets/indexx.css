@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+
+
+body { background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
+
+.container { width: 90%; max-width: 1200px; margin: auto; padding: 20px 0; }
+
+/* Header */ header { background-color: #1e293b; padding: 20px 0; position: sticky; top: 0; z-index: 1000; }
+
+.logo { font-size: 1.8rem; font-weight: 700; color: #38bdf8; }
+
+nav ul { display: flex; gap: 30px; list-style: none; justify-content: center; }
+
+nav ul li a { color: #f8fafc; text-decoration: none; font-weight: 500; transition: color 0.3s; }
+
+nav ul li a:hover { color: #38bdf8; }
+
+/* Hero Section */ .hero { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; padding: 60px 0; }
+
+.hero-text { flex: 1; padding: 20px; }
+
+.hero-text h1 span { color: #38bdf8; }
+
+.hero-text .btn { background-color: #38bdf8; padding: 10px 25px; border-radius: 5px; color: #0f172a; text-decoration: none; font-weight: 600; transition: background-color 0.3s; }
+
+.hero-text .btn:hover { background-color: #0ea5e9; }
+
+.hero-img { flex: 1; text-align: center; }
+
+.hero-img img { width: 250px; height: 250px; border-radius: 50%; object-fit: cover; border: 5px solid #38bdf8; }
+
+/* About, Skills, Projects, Contact */ section h2 { text-align: center; color: #38bdf8; font-size: 2.5rem; margin-bottom: 20px; }
+
+.about p, .contact p { max-width: 700px; margin: auto; text-align: center; }
+
+.skill-list, .project-list { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px; }
+
+.skill { background: #1e293b; padding: 10px 20px; border-radius: 8px; font-weight: 500; }
+
+.project { background-color: #1e293b; padding: 20px; border-radius: 8px; width: 250px; text-align: center; }
+
+footer { text-align: center; padding: 20px 0; background-color: #1e293b; color: #94a3b8; margin-top: 40px; }
